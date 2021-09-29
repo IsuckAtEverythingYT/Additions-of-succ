@@ -1,1 +1,11 @@
-{}
+{
+  "dragonroostisland": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "succsmp:zelda__chill___dragon_roost_island_mikel_lofi_remix",
+        "stream": true
+      }
+    ]
+  }
+}

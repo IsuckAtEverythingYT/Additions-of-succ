@@ -20,8 +20,9 @@ public class PotionOfSuccPotion {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(Effects.STRENGTH, 4, 3, false, true), new EffectInstance(Effects.HASTE, 4, 3, false, true),
-					new EffectInstance(Effects.SLOWNESS, 4, 2, false, true));
+			super(new EffectInstance(Effects.STRENGTH, 500, 3, false, true), new EffectInstance(Effects.HASTE, 500, 3, false, true),
+					new EffectInstance(Effects.SLOWNESS, 500, 2, false, true), new EffectInstance(Effects.HEALTH_BOOST, 500, 4, false, true),
+					new EffectInstance(Effects.REGENERATION, 500, 3, false, true));
 			setRegistryName("potion_of_succ");
 		}
 	}

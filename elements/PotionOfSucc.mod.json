@@ -11,7 +11,7 @@
         "effect": {
           "value": "STRENGTH"
         },
-        "duration": 4,
+        "duration": 500,
         "amplifier": 3,
         "ambient": false,
         "showParticles": true
@@ -20,7 +20,7 @@
         "effect": {
           "value": "HASTE"
         },
-        "duration": 4,
+        "duration": 500,
         "amplifier": 3,
         "ambient": false,
         "showParticles": true
@@ -29,8 +29,26 @@
         "effect": {
           "value": "SLOWNESS"
         },
-        "duration": 4,
+        "duration": 500,
         "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 500,
+        "amplifier": 4,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 500,
+        "amplifier": 3,
         "ambient": false,
         "showParticles": true
       }

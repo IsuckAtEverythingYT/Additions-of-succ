@@ -9,9 +9,9 @@
       "value": "MISC"
     },
     "music": {
-      "value": "ambient.basalt_deltas.loop"
+      "value": "CUSTOM:dragonroostisland"
     },
     "specialInfo": [],
-    "hasGlow": false
+    "hasGlow": true
   }
 }
