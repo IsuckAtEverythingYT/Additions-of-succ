@@ -1,0 +1,44 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ObtainerOfItems",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtainer_of_items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.obtainer_of_items.descr": "Obtain any item from this mod",
+      "advancements.obtainer_of_items.title": "Obtainer Of Items"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "succsmp",
+    "modName": "SuccSMP",
+    "version": "1.0.0",
+    "author": "Kasper, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.succsmp",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
