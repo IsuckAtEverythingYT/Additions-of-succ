@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "tunesoffsucc",
+    "name": "Tunes of Succ",
+    "description": "long lost tunes of Succ",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
