@@ -2,5 +2,9 @@
   "advancements.obtainer_of_items.descr": "Obtain any item from this mod",
   "advancements.obtainer_of_items.title": "Obtainer Of Items",
   "item.succsmp.tunesof_succ": "Tunes of Succ",
-  "item.succsmp.tunesof_succ.desc": "long lost tunes of Succ"
+  "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
+  "item.minecraft.potion.effect.potion_of_succ": "Potion of Potion Of Succ",
+  "item.succsmp.tunesof_succ.desc": "long lost tunes of Succ",
+  "item.minecraft.lingering_potion.effect.potion_of_succ": "Lingering Potion of Potion Of Succ",
+  "item.minecraft.splash_potion.effect.potion_of_succ": "Splash Potion of Potion Of Succ"
 }

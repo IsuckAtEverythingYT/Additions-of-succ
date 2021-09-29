@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Potion Of Succ",
+    "splashName": "Splash Potion of Potion Of Succ",
+    "lingeringName": "Lingering Potion of Potion Of Succ",
+    "arrowName": "Arrow of Potion Of Succ",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 4,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 4,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 4,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
