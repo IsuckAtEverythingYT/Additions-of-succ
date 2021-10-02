@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "succsmp:blocks/makusedite_ore",
+    "up": "succsmp:blocks/makusedite_ore",
+    "north": "succsmp:blocks/makusedite_ore",
+    "east": "succsmp:blocks/makusedite_ore",
+    "south": "succsmp:blocks/makusedite_ore",
+    "west": "succsmp:blocks/makusedite_ore",
+    "particle": "succsmp:blocks/makusedite_ore"
+  }
+}

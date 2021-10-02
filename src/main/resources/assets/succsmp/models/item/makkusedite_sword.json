@@ -1,0 +1,9 @@
+{
+  "parent": "succsmp:custom/makkusite_sword",
+  "textures": {
+    "0": "succsmp:blocks/makusedite",
+    "1": "succsmp:blocks/netherite_block",
+    "2": "succsmp:blocks/andesite",
+    "particle": "succsmp:items/makusedite"
+  }
+}

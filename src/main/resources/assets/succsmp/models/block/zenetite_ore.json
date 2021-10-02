@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "succsmp:blocks/zenetite_ore",
+    "up": "succsmp:blocks/zenetite_ore",
+    "north": "succsmp:blocks/zenetite_ore",
+    "east": "succsmp:blocks/zenetite_ore",
+    "south": "succsmp:blocks/zenetite_ore",
+    "west": "succsmp:blocks/zenetite_ore",
+    "particle": "succsmp:blocks/zenetite_ore"
+  }
+}
