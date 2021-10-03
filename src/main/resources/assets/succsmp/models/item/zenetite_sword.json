@@ -1,0 +1,9 @@
+{
+  "parent": "succsmp:custom/zenetitesword",
+  "textures": {
+    "0": "succsmp:blocks/zenetite",
+    "1": "succsmp:blocks/netherite_block",
+    "2": "succsmp:blocks/andesite",
+    "particle": "succsmp:items/zenetite"
+  }
+}

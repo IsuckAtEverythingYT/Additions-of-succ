@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "zenetite",
+        "1": "netherite_block",
+        "2": "andesite"
+      },
+      "name": "default"
+    }
+  }
+}
