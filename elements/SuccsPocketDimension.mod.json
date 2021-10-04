@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "badlands_plateau"
+        "value": "CUSTOM:Waterlands"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -29,7 +29,7 @@
       "value": "CUSTOM:SucciteOre"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {

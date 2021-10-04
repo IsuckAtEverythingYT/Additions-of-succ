@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.succsmp.itemgroup.SuccsAdditionsItemGroup;
 import net.mcreator.succsmp.SuccsmpModElements;
 
 @SuccsmpModElements.ModElement.Tag
@@ -46,7 +46,7 @@ public class SucciteSwordItem extends SuccsmpModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SucciteClumpItem.block));
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 3, -2f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("succite_sword"));
 	}
 }
