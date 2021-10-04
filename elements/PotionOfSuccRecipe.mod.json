@@ -12,7 +12,7 @@
       "value": "POTION:AWKWARD"
     },
     "brewingIngredientStack": {
-      "value": "Blocks.NOTEBLOCK"
+      "value": "CUSTOM:SucciteClump"
     },
     "brewingReturnStack": {
       "value": "POTION:CUSTOM:PotionOfSucc"

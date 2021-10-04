@@ -10,9 +10,9 @@ import net.minecraft.potion.PotionUtils;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.succsmp.potion.PotionOfSuccPotion;
+import net.mcreator.succsmp.item.SucciteClumpItem;
 
 @SuccsmpModElements.ModElement.Tag
 public class PotionOfSuccRecipeBrewingRecipe extends SuccsmpModElements.ModElement {
@@ -34,7 +34,7 @@ public class PotionOfSuccRecipeBrewingRecipe extends SuccsmpModElements.ModEleme
 
 		@Override
 		public boolean isIngredient(ItemStack ingredient) {
-			return ingredient.getItem() == Blocks.NOTE_BLOCK.asItem();
+			return ingredient.getItem() == SucciteClumpItem.block;
 		}
 
 		@Override
