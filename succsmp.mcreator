@@ -8,7 +8,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tunesof_succ"
+      "registry_name": "tunesof_succ",
+      "path": "~/Music"
     },
     {
       "name": "PotionOfSucc",
@@ -17,7 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "potion_of_succ"
+      "registry_name": "potion_of_succ",
+      "path": "~/Potions"
     },
     {
       "name": "PotionOfSuccRecipe",
@@ -26,7 +28,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "potion_of_succ_recipe"
+      "registry_name": "potion_of_succ_recipe",
+      "path": "~/Potions/Recipes"
     },
     {
       "name": "MakkusediteSword",
@@ -35,7 +38,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "makkusedite_sword"
+      "registry_name": "makkusedite_sword",
+      "path": "~/Tools/Swords"
     },
     {
       "name": "SucciteSword",
@@ -44,7 +48,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "succite_sword"
+      "registry_name": "succite_sword",
+      "path": "~/Tools/Swords"
     },
     {
       "name": "MakkusediteOre",
@@ -53,7 +58,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "makkusedite_ore"
+      "registry_name": "makkusedite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "SucciteOre",
@@ -62,7 +68,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "succite_ore"
+      "registry_name": "succite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "ZenetiteOre",
@@ -71,7 +78,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zenetite_ore"
+      "registry_name": "zenetite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "MakkusediteClump",
@@ -80,7 +88,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "makkusedite_clump"
+      "registry_name": "makkusedite_clump",
+      "path": "~/Ores/Clumps"
     },
     {
       "name": "SucciteClump",
@@ -89,7 +98,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "succite_clump"
+      "registry_name": "succite_clump",
+      "path": "~/Ores/Clumps"
     },
     {
       "name": "ZenetiteClump",
@@ -98,7 +108,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zenetite_clump"
+      "registry_name": "zenetite_clump",
+      "path": "~/Ores/Clumps"
     },
     {
       "name": "ZenetiteSword",
@@ -107,7 +118,28 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zenetite_sword"
+      "registry_name": "zenetite_sword",
+      "path": "~/Tools/Swords"
+    },
+    {
+      "name": "ShinyNewOre",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shiny_new_ore",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LongLostTunes",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "long_lost_tunes",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -127,13 +159,17 @@
       "item.succsmp.makkusedite_sword": "Makkusedite Sword",
       "block.succsmp.succite_ore": "Succite Ore",
       "item.succsmp.tunesof_succ": "Tunes of Succ",
+      "advancements.shiny_new_ore.title": "Shiny New Ore",
       "item.succsmp.zenetite_sword": "Zenetite Sword",
       "item.minecraft.lingering_potion.effect.potion_of_succ": "Lingering Potion of Potion Of Succ",
+      "advancements.shiny_new_ore.descr": "obtain Succite",
       "item.succsmp.makkusedite_clump": "Makkusedite Clump",
       "item.succsmp.succite_clump": "Succite Clump",
+      "advancements.long_lost_tunes.title": "Long Lost Tunes",
       "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
       "item.minecraft.potion.effect.potion_of_succ": "Potion of Potion Of Succ",
       "item.succsmp.tunesof_succ.desc": "Zelda \u0026 Chill ~ Dragon Roost Island GameChops",
+      "advancements.long_lost_tunes.descr": "obtain the tunes of succ",
       "item.succsmp.zenetite_clump": "Zenetite Clump",
       "item.minecraft.splash_potion.effect.potion_of_succ": "Splash Potion of Potion Of Succ",
       "block.succsmp.makkusedite_ore": "Makkusedite Ore",
@@ -143,7 +179,88 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Ores",
+        "children": [
+          {
+            "name": "Clumps",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Swords",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Pickaxe",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Shovels",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Axe",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Hoe",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armour",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Music",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "succsmp",
