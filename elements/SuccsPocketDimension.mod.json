@@ -7,9 +7,9 @@
         "value": "badlands_plateau"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.WARPED_NYLIUM"
+      "value": "Blocks.DIRT#1"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
