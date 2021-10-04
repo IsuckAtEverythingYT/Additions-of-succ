@@ -122,16 +122,6 @@
       "path": "~/Tools/Swords"
     },
     {
-      "name": "ShinyNewOre",
-      "type": "achievement",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shiny_new_ore",
-      "path": "~/Advancements"
-    },
-    {
       "name": "LongLostTunes",
       "type": "achievement",
       "sortid": 15,
@@ -140,6 +130,25 @@
       "ids": {},
       "registry_name": "long_lost_tunes",
       "path": "~/Advancements"
+    },
+    {
+      "name": "WhatTheSucc",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what_the_succ",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SuccsAdditions",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succs_additions"
     }
   ],
   "variable_elements": [],
@@ -157,14 +166,15 @@
     "en_us": {
       "item.succsmp.succite_sword": "Succite Sword",
       "item.succsmp.makkusedite_sword": "Makkusedite Sword",
+      "advancements.what_the_succ.title": "What The Succ Is This",
       "block.succsmp.succite_ore": "Succite Ore",
       "item.succsmp.tunesof_succ": "Tunes of Succ",
-      "advancements.shiny_new_ore.title": "Shiny New Ore",
       "item.succsmp.zenetite_sword": "Zenetite Sword",
       "item.minecraft.lingering_potion.effect.potion_of_succ": "Lingering Potion of Potion Of Succ",
-      "advancements.shiny_new_ore.descr": "obtain Succite",
       "item.succsmp.makkusedite_clump": "Makkusedite Clump",
       "item.succsmp.succite_clump": "Succite Clump",
+      "itemGroup.tabsuccs_additions": "Succs Additions",
+      "advancements.what_the_succ.descr": "Obtain succite ore",
       "advancements.long_lost_tunes.title": "Long Lost Tunes",
       "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
       "item.minecraft.potion.effect.potion_of_succ": "Potion of Potion Of Succ",
@@ -185,6 +195,10 @@
         "children": [
           {
             "name": "Clumps",
+            "children": []
+          },
+          {
+            "name": "Ingots",
             "children": []
           }
         ]

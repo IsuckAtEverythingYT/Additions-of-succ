@@ -2,21 +2,21 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "succsmp:succite_ore"
+      "item": "succsmp:succite_clump"
     },
     "title": {
-      "translate": "advancements.shiny_new_ore.title"
+      "translate": "advancements.what_the_succ.title"
     },
     "description": {
-      "translate": "advancements.shiny_new_ore.descr"
+      "translate": "advancements.what_the_succ.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "shiny_new_ore": {
+    "what_the_succ": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "experience": 69
+    "experience": 1
   }
 }
