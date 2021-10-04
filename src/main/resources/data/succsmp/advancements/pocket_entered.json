@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "succsmp:succs_pocket_dimension"
+    },
+    "title": {
+      "translate": "advancements.pocket_entered.title"
+    },
+    "description": {
+      "translate": "advancements.pocket_entered.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pocket_entered": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "succsmp:succs_pocket_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "succsmp:what_the_succ"
+}
