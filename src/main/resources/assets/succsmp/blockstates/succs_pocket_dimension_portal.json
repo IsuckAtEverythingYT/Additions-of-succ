@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "succsmp:block/succs_pocket_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "succsmp:block/succs_pocket_dimension_portal_ns"
+    }
+  }
+}
