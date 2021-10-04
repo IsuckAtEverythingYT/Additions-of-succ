@@ -239,41 +239,10 @@
     "name": "~",
     "children": [
       {
-        "name": "Ores",
-        "children": [
-          {
-            "name": "Clumps",
-            "children": []
-          },
-          {
-            "name": "Ingots",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "Tools",
         "children": [
           {
-            "name": "Swords",
-            "children": [
-              {
-                "name": "Recipes",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "Pickaxe",
-            "children": [
-              {
-                "name": "Recipes",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Shovels",
             "children": [
               {
                 "name": "Recipes",
@@ -298,19 +267,29 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Swords",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Shovels",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
           }
         ]
       },
       {
-        "name": "Armour",
-        "children": []
-      },
-      {
         "name": "Advancements",
-        "children": []
-      },
-      {
-        "name": "Music",
         "children": []
       },
       {
@@ -321,6 +300,27 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Ores",
+        "children": [
+          {
+            "name": "Ingots",
+            "children": []
+          },
+          {
+            "name": "Clumps",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armour",
+        "children": []
+      },
+      {
+        "name": "Music",
+        "children": []
       },
       {
         "name": "Dimension",
