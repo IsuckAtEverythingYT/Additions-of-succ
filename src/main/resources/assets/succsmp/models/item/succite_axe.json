@@ -1,0 +1,10 @@
+{
+  "parent": "succsmp:custom/SucciteAxe",
+  "textures": {
+    "0": "succsmp:blocks/succite",
+    "1": "succsmp:blocks/netherite_block",
+    "2": "succsmp:blocks/andesite",
+    "missing": "succsmp:blocks/netherite_block",
+    "particle": "succsmp:items/succite"
+  }
+}
