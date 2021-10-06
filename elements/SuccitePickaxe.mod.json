@@ -4,11 +4,11 @@
   "definition": {
     "renderType": 1,
     "texture": "succite",
-    "customModelName": "succitepickaxe:default",
+    "customModelName": "SuccitePickAxe:default",
     "name": "Succite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SuccsAdditions"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 1,
@@ -20,7 +20,7 @@
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

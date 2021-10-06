@@ -12,11 +12,11 @@ import net.mcreator.succsmp.itemgroup.SuccsAdditionsItemGroup;
 import net.mcreator.succsmp.SuccsmpModElements;
 
 @SuccsmpModElements.ModElement.Tag
-public class MakkusediteClumpItem extends SuccsmpModElements.ModElement {
-	@ObjectHolder("succsmp:makkusedite_clump")
+public class AndesitePoleItem extends SuccsmpModElements.ModElement {
+	@ObjectHolder("succsmp:andesite_pole")
 	public static final Item block = null;
-	public MakkusediteClumpItem(SuccsmpModElements instance) {
-		super(instance, 10);
+	public AndesitePoleItem(SuccsmpModElements instance) {
+		super(instance, 27);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class MakkusediteClumpItem extends SuccsmpModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SuccsAdditionsItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.UNCOMMON));
-			setRegistryName("makkusedite_clump");
+			super(new Item.Properties().group(SuccsAdditionsItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			setRegistryName("andesite_pole");
 		}
 
 		@Override

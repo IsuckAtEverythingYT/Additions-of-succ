@@ -32,7 +32,7 @@ public class SucciteSwordItem extends SuccsmpModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class SucciteSwordItem extends SuccsmpModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SucciteClumpItem.block));
 			}
-		}, 3, -2f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
+		}, 3, -1.8f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("succite_sword"));
 	}
 }

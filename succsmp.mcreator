@@ -174,6 +174,26 @@
       "path": "~/Dimension/Biomes"
     },
     {
+      "name": "SuccitePickaxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_pickaxe",
+      "path": "~/Tools/Pickaxe"
+    },
+    {
+      "name": "DryLands",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dry_lands",
+      "path": "~/Dimension"
+    },
+    {
       "name": "SucciteAxe",
       "type": "tool",
       "sortid": 20,
@@ -184,14 +204,74 @@
       "path": "~/Tools/Axe"
     },
     {
-      "name": "SuccitePickaxe",
-      "type": "tool",
-      "sortid": 21,
+      "name": "SucciteIngot",
+      "type": "item",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "succite_pickaxe",
-      "path": "~/Tools/Pickaxe"
+      "registry_name": "succite_ingot",
+      "path": "~/Ores/Ingots"
+    },
+    {
+      "name": "SucciteIngotRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_ingot_recipe",
+      "path": "~/Ores/IngotRecipes"
+    },
+    {
+      "name": "SucciteSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_sword_recipe",
+      "path": "~/Tools/Swords/Recipes"
+    },
+    {
+      "name": "AndesitePole",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_pole",
+      "path": "~/Tools"
+    },
+    {
+      "name": "SuccitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_pickaxe_recipe",
+      "path": "~/Tools/Pickaxe/Recipes"
+    },
+    {
+      "name": "SuccyIngot",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succy_ingot",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AndesitePoleRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andesite_pole_recipe",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -207,14 +287,19 @@
   ],
   "language_map": {
     "en_us": {
+      "biome.succsmp.dry_lands": "Dry Lands",
+      "item.succsmp.andesite_pole": "Andesite Pole",
       "advancements.what_the_succ.descr": "Obtain succite ore",
       "advancements.long_lost_tunes.title": "Long Lost Tunes",
       "item.minecraft.potion.effect.potion_of_succ": "Potion of Potion Of Succ",
       "item.succsmp.tunesof_succ.desc": "Zelda \u0026 Chill ~ Dragon Roost Island GameChops",
+      "item.succsmp.succite_ingot": "Succite Ingot",
       "advancements.long_lost_tunes.descr": "obtain the tunes of succ",
       "biome.succsmp.waterlands": "Waterlands",
       "subtitles.dragonroostisland": "",
       "block.succsmp.zenetite_ore": "Zenetite Ore",
+      "advancements.pocket_entered.title": "Pocket Entered",
+      "advancements.succy_ingot.title": "Succy Ingot",
       "item.succsmp.succite_sword": "Succite Sword",
       "item.succsmp.makkusedite_sword": "Makkusedite Sword",
       "advancements.what_the_succ.title": "What The Succ Is This",
@@ -228,8 +313,10 @@
       "item.succsmp.makkusedite_clump": "Makkusedite Clump",
       "item.succsmp.succite_clump": "Succite Clump",
       "itemGroup.tabsuccs_additions": "Succs Additions",
+      "advancements.pocket_entered.descr": "Enter Succ\u0027s pocket dimension",
       "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
       "item.succsmp.zenetite_clump": "Zenetite Clump",
+      "advancements.succy_ingot.descr": "Obtain Succite ingot",
       "block.succsmp.makkusedite_ore": "Makkusedite Ore",
       "item.minecraft.splash_potion.effect.potion_of_succ": "Splash Potion of Potion Of Succ"
     }
@@ -309,6 +396,10 @@
           },
           {
             "name": "Clumps",
+            "children": []
+          },
+          {
+            "name": "IngotRecipes",
             "children": []
           }
         ]

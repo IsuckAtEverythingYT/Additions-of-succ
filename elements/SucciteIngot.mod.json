@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "zenetite",
+    "texture": "succite_ingot",
     "customModelName": "Normal",
-    "name": "Zenetite Clump",
+    "name": "Succite Ingot",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:SuccsAdditions"

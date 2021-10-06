@@ -9,9 +9,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
+import net.mcreator.succsmp.itemgroup.SuccsAdditionsItemGroup;
 import net.mcreator.succsmp.SuccsmpModElements;
 
 @SuccsmpModElements.ModElement.Tag
@@ -29,7 +29,7 @@ public class TunesofSuccItem extends SuccsmpModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, SuccsmpModElements.sounds.get(new ResourceLocation("succsmp:dragonroostisland")),
-					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(SuccsAdditionsItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("tunesof_succ");
 		}
 
