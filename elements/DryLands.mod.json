@@ -2,31 +2,31 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Waterlands",
+    "name": "Dry Lands",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.SAND#1"
     },
     "undergroundBlock": {
-      "value": "Blocks.BLACKSTONE"
+      "value": "Blocks.SAND#0"
     },
     "airColor": {
-      "value": -16776961,
+      "value": -26368,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -16724839,
+      "value": -13159,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -6684775,
+      "value": -3381760,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16751002,
+      "value": -26215,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16724788,
+      "value": -26215,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -47,20 +47,20 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "OCEAN",
+    "biomeCategory": "DESERT",
     "parent": {
       "value": "No parent"
     },
-    "rainingPossibility": 0.0,
+    "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 0.30000000000000004,
-    "heightVariation": 0.5,
-    "biomeType": "COOL",
+    "baseHeight": 0.4,
+    "heightVariation": 0.30000000000000004,
+    "biomeType": "DESERT",
     "spawnBiome": false,
-    "biomeWeight": 15,
+    "biomeWeight": 10,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
-    "seagrassPerChunk": 3,
+    "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
@@ -68,7 +68,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 3,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
@@ -85,8 +85,8 @@
     "treeFruits": {
       "value": ""
     },
-    "spawnStronghold": false,
-    "spawnMineshaft": true,
+    "spawnStronghold": true,
+    "spawnMineshaft": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
     "spawnWoodlandMansion": false,
@@ -95,13 +95,11 @@
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
-    "oceanRuinType": "COLD",
+    "oceanRuinType": "NONE",
     "defaultFeatures": [
+      "Caves",
       "Ores",
-      "FrozenTopLayer",
-      "OceanCaves",
-      "MonsterRooms",
-      "Lakes"
+      "FrozenTopLayer"
     ],
     "spawnEntries": []
   }

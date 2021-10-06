@@ -32,7 +32,7 @@ public class MakkusediteSwordItem extends SuccsmpModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 10f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class MakkusediteSwordItem extends SuccsmpModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MakkusediteClumpItem.block));
 			}
-		}, 3, -2f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2.5f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("makkusedite_sword"));
 	}
 }

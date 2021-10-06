@@ -46,7 +46,7 @@ public class ZenetiteSwordItem extends SuccsmpModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SucciteClumpItem.block));
 			}
-		}, 3, -2f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2.3f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("zenetite_sword"));
 	}
 }

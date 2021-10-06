@@ -6,7 +6,7 @@
     "name": "Tunes of Succ",
     "description": "Zelda & Chill ~ Dragon Roost Island GameChops",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SuccsAdditions"
     },
     "music": {
       "value": "CUSTOM:dragonroostisland"

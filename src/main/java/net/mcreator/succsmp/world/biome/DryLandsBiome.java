@@ -16,7 +16,6 @@ import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
 import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
-import net.minecraft.world.gen.feature.ProbabilityConfig;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.FeatureSpread;
 import net.minecraft.world.gen.feature.Feature;
@@ -35,26 +34,25 @@ import net.minecraft.block.Blocks;
 import net.mcreator.succsmp.SuccsmpModElements;
 
 @SuccsmpModElements.ModElement.Tag
-public class WaterlandsBiome extends SuccsmpModElements.ModElement {
+public class DryLandsBiome extends SuccsmpModElements.ModElement {
 	public static Biome biome;
-	public WaterlandsBiome(SuccsmpModElements instance) {
-		super(instance, 19);
+	public DryLandsBiome(SuccsmpModElements instance) {
+		super(instance, 23);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-16776961).setWaterColor(-16751002).setWaterFogColor(-16724788)
-						.withSkyColor(-16776961).withFoliageColor(-6684775).withGrassColor(-16724839)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-26368).setWaterColor(-26215).setWaterFogColor(-26215)
+						.withSkyColor(-26368).withFoliageColor(-3381760).withGrassColor(-13159)
 						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("succsmp:dragonroostisland")), 12000, 24000, true))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
-						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
-								Blocks.BLACKSTONE.getDefaultState(), Blocks.BLACKSTONE.getDefaultState())));
-				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
-				biomeGenerationSettings.withStructure(StructureFeatures.OCEAN_RUIN_COLD);
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.RED_SAND.getDefaultState(),
+								Blocks.SAND.getDefaultState(), Blocks.SAND.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.STRONGHOLD);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.TREE
 								.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
@@ -62,26 +60,22 @@ public class WaterlandsBiome extends SuccsmpModElements.ModElement {
 										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
 										new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
 								.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
+								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(2, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 4))));
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS
-						.withConfiguration(new ProbabilityConfig(0.3F)).func_242731_b(3).withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.FLOWER.withConfiguration(Features.Configs.NORMAL_FLOWER_CONFIG)
 								.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 								.func_242731_b(4));
+				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
-				DefaultBiomeFeatures.withOceanCavesAndCanyons(biomeGenerationSettings);
-				DefaultBiomeFeatures.withMonsterRoom(biomeGenerationSettings);
-				DefaultBiomeFeatures.withLavaAndWaterLakes(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.OCEAN).depth(0.3f).scale(0.5f)
-						.temperature(0.5f).downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.DESERT).depth(0.4f).scale(0.3f)
+						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
-				event.getRegistry().register(biome.setRegistryName("succsmp:waterlands"));
+				event.getRegistry().register(biome.setRegistryName("succsmp:dry_lands"));
 			}
 		}
 	}

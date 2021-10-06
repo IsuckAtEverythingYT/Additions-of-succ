@@ -45,7 +45,7 @@ public class SuccitePickaxeItem extends SuccsmpModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(SuccsAdditionsItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(SuccsAdditionsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("succite_pickaxe"));
 	}
 }
