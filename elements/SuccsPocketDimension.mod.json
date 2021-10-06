@@ -5,9 +5,6 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Waterlands"
-      },
-      {
-        "value": "CUSTOM:DryLands"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -16,6 +13,10 @@
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
+    },
+    "airColor": {
+      "value": -6736897,
+      "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": false,

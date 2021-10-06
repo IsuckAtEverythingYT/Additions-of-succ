@@ -101,7 +101,7 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 		DimensionRenderInfo customEffect = new DimensionRenderInfo(128, true, DimensionRenderInfo.FogType.NORMAL, false, false) {
 			@Override
 			public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
-				return color.mul(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
+				return new Vector3d(0.6, 0.2, 1);
 			}
 
 			@Override
