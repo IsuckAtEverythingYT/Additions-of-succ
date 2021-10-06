@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "succsmp:blocks/makusedite_ore",
-    "portal": "succsmp:blocks/makusedite_ore"
+    "particle": "succsmp:blocks/succ_portal",
+    "portal": "succsmp:blocks/succ_portal"
   },
   "elements": [
     {
