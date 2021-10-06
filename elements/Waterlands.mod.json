@@ -56,7 +56,7 @@
     "baseHeight": 0.30000000000000004,
     "heightVariation": 1.2000000000000002,
     "biomeType": "COOL",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 15,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
