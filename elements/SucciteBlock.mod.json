@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "makusedite_ore",
+    "texture": "succite_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Makkusedite Ore",
+    "name": "Succite Block",
     "specialInfo": [],
     "hardness": 1.05,
     "resistance": 1000000.0,
@@ -41,9 +41,9 @@
     "creativeTab": {
       "value": "CUSTOM:SuccsAdditions"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:MakkusediteClump"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -73,23 +73,23 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "NETHERITE"
     },
     "breakSound": {
-      "value": "block.beacon.activate"
+      "value": "block.netherite_block.break"
     },
     "stepSound": {
-      "value": "block.ancient_debris.step"
+      "value": "block.netherite_block.step"
     },
     "placeSound": {
       "value": "block.netherite_block.place"
     },
     "hitSound": {
-      "value": "block.netherite_block.hit"
+      "value": "block.netherrack.hit"
     },
     "fallSound": {
       "value": "block.netherite_block.fall"
@@ -121,18 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 5
+    "maxGenerateHeight": 64
   }
 }

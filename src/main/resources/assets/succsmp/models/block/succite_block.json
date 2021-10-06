@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "succsmp:blocks/succite_block",
+    "up": "succsmp:blocks/succite_block",
+    "north": "succsmp:blocks/succite_block",
+    "east": "succsmp:blocks/succite_block",
+    "south": "succsmp:blocks/succite_block",
+    "west": "succsmp:blocks/succite_block",
+    "particle": "succsmp:blocks/succite_block"
+  }
+}

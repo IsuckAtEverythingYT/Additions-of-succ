@@ -1,0 +1,42 @@
+{
+  "group": "succsmp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "succsmp:succite_ingot"
+    },
+    "1": {
+      "item": "succsmp:succite_ingot"
+    },
+    "2": {
+      "item": "succsmp:succite_ingot"
+    },
+    "3": {
+      "item": "succsmp:succite_ingot"
+    },
+    "4": {
+      "item": "succsmp:succite_ingot"
+    },
+    "5": {
+      "item": "succsmp:succite_ingot"
+    },
+    "6": {
+      "item": "succsmp:succite_ingot"
+    },
+    "7": {
+      "item": "succsmp:succite_ingot"
+    },
+    "8": {
+      "item": "succsmp:succite_ingot"
+    }
+  },
+  "result": {
+    "item": "succsmp:succite_block",
+    "count": 1
+  }
+}

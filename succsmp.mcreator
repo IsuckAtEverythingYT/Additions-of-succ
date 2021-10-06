@@ -272,6 +272,36 @@
       "ids": {},
       "registry_name": "andesite_pole_recipe",
       "path": "~/Tools"
+    },
+    {
+      "name": "SucciteBlock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_block",
+      "path": "~/Ores/blocks"
+    },
+    {
+      "name": "SucciteBlockToIngot",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_block_to_ingot",
+      "path": "~/Ores/IngotRecipes"
+    },
+    {
+      "name": "SucciteIngotToBlock",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "succite_ingot_to_block",
+      "path": "~/Ores/IngotRecipes"
     }
   ],
   "variable_elements": [],
@@ -299,6 +329,7 @@
       "subtitles.dragonroostisland": "",
       "block.succsmp.zenetite_ore": "Zenetite Ore",
       "advancements.pocket_entered.title": "Pocket Entered",
+      "block.succsmp.succite_block": "Succite Block",
       "advancements.succy_ingot.title": "Succy Ingot",
       "item.succsmp.succite_sword": "Succite Sword",
       "item.succsmp.makkusedite_sword": "Makkusedite Sword",
@@ -400,6 +431,10 @@
           },
           {
             "name": "IngotRecipes",
+            "children": []
+          },
+          {
+            "name": "blocks",
             "children": []
           }
         ]

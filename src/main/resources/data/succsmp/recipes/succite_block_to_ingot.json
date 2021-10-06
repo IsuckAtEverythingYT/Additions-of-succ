@@ -1,0 +1,13 @@
+{
+  "group": "succsmp",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "succsmp:succite_block"
+    }
+  ],
+  "result": {
+    "item": "succsmp:succite_ingot",
+    "count": 9
+  }
+}
