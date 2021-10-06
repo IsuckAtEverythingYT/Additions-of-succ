@@ -2,9 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "3": "succite_ingot",
+        "3": "andesite",
         "4": "netherite_block",
-        "5": "andesite"
+        "5": "succite_ingot"
       },
       "name": "default"
     }
