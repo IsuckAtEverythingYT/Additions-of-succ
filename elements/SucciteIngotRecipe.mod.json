@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 69.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SucciteClump"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SucciteIngot"
+    },
+    "name": "succite_ingot_recipe",
+    "namespace": "mod"
+  }
+}

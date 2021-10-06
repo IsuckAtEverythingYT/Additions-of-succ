@@ -1,0 +1,12 @@
+{
+  "group": "succsmp",
+  "type": "minecraft:smelting",
+  "experience": 69,
+  "cookingtime": 250,
+  "ingredient": {
+    "item": "succsmp:succite_clump"
+  },
+  "result": {
+    "item": "succsmp:succite_ingot"
+  }
+}
