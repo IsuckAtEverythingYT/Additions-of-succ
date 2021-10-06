@@ -1,6 +1,7 @@
 {
   "biome.succsmp.dry_lands": "Dry Lands",
   "item.succsmp.andesite_pole": "Andesite Pole",
+  "advancements.but_why.descr": "obtain a block of succite",
   "advancements.what_the_succ.descr": "Obtain succite ore",
   "advancements.long_lost_tunes.title": "Long Lost Tunes",
   "item.minecraft.potion.effect.potion_of_succ": "Potion of Potion Of Succ",
@@ -23,6 +24,7 @@
   "item.minecraft.lingering_potion.effect.potion_of_succ": "Lingering Potion of Potion Of Succ",
   "item.succsmp.succite_pickaxe": "Succite Pickaxe",
   "item.succsmp.succs_pocket_dimension": "World Opener",
+  "advancements.but_why.title": "But Why?",
   "item.succsmp.makkusedite_clump": "Makkusedite Clump",
   "item.succsmp.succite_clump": "Succite Clump",
   "itemGroup.tabsuccs_additions": "Succs Additions",
