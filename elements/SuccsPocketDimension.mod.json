@@ -5,11 +5,14 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Waterlands"
+      },
+      {
+        "value": "CUSTOM:DryLands"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.DIRT#1"
+      "value": "Blocks.STONE#0"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"

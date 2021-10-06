@@ -85,10 +85,10 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(Blocks.COARSE_DIRT).build(), "field_222718_j");
+						.add(Blocks.STONE).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(Blocks.COARSE_DIRT).build(), "field_222718_j");
+						.add(Blocks.STONE).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
