@@ -16,9 +16,9 @@
   },
   "criteria": {
     "pocket_entered": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "minecraft:location",
       "conditions": {
-        "to": "succsmp:succs_pocket_dimension"
+        "biome": "succsmp:waterlands"
       }
     }
   },

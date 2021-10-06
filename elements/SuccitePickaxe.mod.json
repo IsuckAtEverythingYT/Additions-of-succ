@@ -4,23 +4,23 @@
   "definition": {
     "renderType": 1,
     "texture": "succite",
-    "customModelName": "SucciteAxe:default",
-    "name": "Succite Axe",
+    "customModelName": "SuccitePickAxe:default",
+    "name": "Succite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:SuccsAdditions"
     },
-    "toolType": "Axe",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
-    "usageCount": 5200,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
