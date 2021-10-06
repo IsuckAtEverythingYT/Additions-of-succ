@@ -54,7 +54,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
 import net.mcreator.succsmp.item.SuccsPocketDimensionItem;
-import net.mcreator.succsmp.block.SucciteOreBlock;
 import net.mcreator.succsmp.SuccsmpModElements;
 
 import javax.annotation.Nullable;
@@ -102,7 +101,7 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 		DimensionRenderInfo customEffect = new DimensionRenderInfo(128, true, DimensionRenderInfo.FogType.NORMAL, false, false) {
 			@Override
 			public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
-				return color.mul(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
+				return new Vector3d(0.6, 0.2, 1);
 			}
 
 			@Override
@@ -227,7 +226,7 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 
 	public static class CustomPortalSize {
 		private static final AbstractBlock.IPositionPredicate POSITION_PREDICATE = (state, blockReader, pos) -> {
-			return state.getBlock() == SucciteOreBlock.block;
+			return state.getBlock() == Blocks.POLISHED_BLACKSTONE_BRICKS;
 		};
 		private final IWorld world;
 		private final Direction.Axis axis;
@@ -497,7 +496,7 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 				for (int l1 = -1; l1 < 2; ++l1) {
 					for (int k2 = 0; k2 < 2; ++k2) {
 						for (int i3 = -1; i3 < 3; ++i3) {
-							BlockState blockstate1 = i3 < 0 ? SucciteOreBlock.block.getDefaultState() : Blocks.AIR.getDefaultState();
+							BlockState blockstate1 = i3 < 0 ? Blocks.POLISHED_BLACKSTONE_BRICKS.getDefaultState() : Blocks.AIR.getDefaultState();
 							blockpos$mutable.setAndOffset(blockpos, k2 * direction.getXOffset() + l1 * direction1.getXOffset(), i3,
 									k2 * direction.getZOffset() + l1 * direction1.getZOffset());
 							this.world.setBlockState(blockpos$mutable, blockstate1);
@@ -509,7 +508,7 @@ public class SuccsPocketDimensionDimension extends SuccsmpModElements.ModElement
 				for (int i2 = -1; i2 < 4; ++i2) {
 					if (k1 == -1 || k1 == 2 || i2 == -1 || i2 == 3) {
 						blockpos$mutable.setAndOffset(blockpos, k1 * direction.getXOffset(), i2, k1 * direction.getZOffset());
-						this.world.setBlockState(blockpos$mutable, SucciteOreBlock.block.getDefaultState(), 3);
+						this.world.setBlockState(blockpos$mutable, Blocks.POLISHED_BLACKSTONE_BRICKS.getDefaultState(), 3);
 					}
 				}
 			}
