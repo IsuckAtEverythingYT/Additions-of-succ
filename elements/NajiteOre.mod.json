@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "makkusite_ore",
+    "texture": "najite_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Makkusedite Ore",
+    "name": "Najite Ore",
     "specialInfo": [],
     "hardness": 1.05,
     "resistance": 1000000.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:MakkusediteClump"
+      "value": "CUSTOM:ZenetiteClump"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

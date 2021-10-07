@@ -1,6 +1,9 @@
 {
+  "item.succsmp.najite_clump": "Najite Clump",
+  "block.succsmp.najite_ore": "Najite Ore",
   "biome.succsmp.dry_lands": "Dry Lands",
   "item.succsmp.andesite_pole": "Andesite Pole",
+  "item.succsmp.zenetite_ingot": "Zenetite Ingot",
   "advancements.but_why.descr": "obtain a block of succite",
   "advancements.what_the_succ.descr": "Obtain succite ore",
   "advancements.long_lost_tunes.title": "Long Lost Tunes",
@@ -28,6 +31,7 @@
   "item.succsmp.succite_clump": "Succite Clump",
   "itemGroup.tabsuccs_additions": "Succs Additions",
   "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
+  "item.succsmp.makkusite_ingot": "Makkusite Ingot",
   "item.succsmp.zenetite_clump": "Zenetite Clump",
   "advancements.succy_ingot.descr": "Obtain Succite ingot",
   "block.succsmp.makkusedite_ore": "Makkusedite Ore",

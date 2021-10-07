@@ -312,6 +312,46 @@
       "ids": {},
       "registry_name": "but_why",
       "path": "~/Advancements"
+    },
+    {
+      "name": "NajiteOre",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "najite_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "MakkusiteIngot",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makkusite_ingot",
+      "path": "~/Ores/Ingots"
+    },
+    {
+      "name": "ZenetiteIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zenetite_ingot",
+      "path": "~/Ores/Ingots"
+    },
+    {
+      "name": "NajiteClump",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "najite_clump",
+      "path": "~/Ores/Clumps"
     }
   ],
   "variable_elements": [],
@@ -327,8 +367,11 @@
   ],
   "language_map": {
     "en_us": {
+      "item.succsmp.najite_clump": "Najite Clump",
+      "block.succsmp.najite_ore": "Najite Ore",
       "biome.succsmp.dry_lands": "Dry Lands",
       "item.succsmp.andesite_pole": "Andesite Pole",
+      "item.succsmp.zenetite_ingot": "Zenetite Ingot",
       "advancements.but_why.descr": "obtain a block of succite",
       "advancements.what_the_succ.descr": "Obtain succite ore",
       "advancements.long_lost_tunes.title": "Long Lost Tunes",
@@ -356,6 +399,7 @@
       "item.succsmp.succite_clump": "Succite Clump",
       "itemGroup.tabsuccs_additions": "Succs Additions",
       "item.minecraft.tipped_arrow.effect.potion_of_succ": "Arrow of Potion Of Succ",
+      "item.succsmp.makkusite_ingot": "Makkusite Ingot",
       "item.succsmp.zenetite_clump": "Zenetite Clump",
       "advancements.succy_ingot.descr": "Obtain Succite ingot",
       "block.succsmp.makkusedite_ore": "Makkusedite Ore",

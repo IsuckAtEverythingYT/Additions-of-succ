@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "makkusite",
+    "texture": "makkusite_ingot",
     "customModelName": "Normal",
-    "name": "Makkusedite Clump",
+    "name": "Makkusite Ingot",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:SuccsAdditions"

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "succsmp:items/makkusite"
+    "layer0": "succsmp:items/zenetite_ingot"
   }
 }
